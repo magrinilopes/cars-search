@@ -1,34 +1,31 @@
 # cars-search
 
-## Project setup
+## Setup do projeto
+Execute os passos abaixo para rodar o projeto
+
+### Clone o projeto em seu diretório de preferência
+```
+git clone https://github.com/magrinilopes/cars-search
+```
+
+### Acesse o diretório landing-page-vue que foi clonado
+
+### Tem duas formas de rodar este projeto, uma é instalando a aplicação.
+Para esse processo, é necessário ter o node e o npm instalados na máquina. Caso tenha, execute o comando:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar o projeto e executar no mode desenvolvedor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Caso queira subir em container
+Lembre-se que o [docker]() precisa estar instalado.
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+docker build -t tex/cars-search .
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Com a imagem criada, execute o comando
+docker run -it -p 8080:8080 --rm --name cars-search tex/cars-search

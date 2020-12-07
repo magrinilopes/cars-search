@@ -16,7 +16,7 @@ Para esse processo, é necessário ter o node e o npm instalados na máquina. Ca
 npm install
 ```
 
-### Compilar o projeto e executar no mode desenvolvedor
+### Compilar o projeto e executar localmente (ambiente de desenvolvimento)
 ```
 npm run serve
 ```
@@ -31,3 +31,16 @@ docker build -t tex/cars-search .
 
 ### Com a imagem criada, execute o comando
 docker run -it -p 8080:80 --rm --name cars-search tex/cars-search
+
+
+### Testes Unitários
+Para rodar os testes unitários do projeto, execute o comando:
+```
+npm run test:unit
+```
+
+### Validação lint
+Para rodar a validação de regras de escrita do código, execute o comando:
+```
+npm run lint
+```

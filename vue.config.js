@@ -8,11 +8,6 @@ module.exports = {
         key: fs.readFileSync('./server.key'),
         cert: fs.readFileSync('./server.crt')
       },
-      /* proxy: {
-        '^/graphQL': {
-          target: 'https://service.teleport.com.br/teste-veiculo/v1/gql'
-        }
-      } */
     }
   },
   filenameHashing: true,

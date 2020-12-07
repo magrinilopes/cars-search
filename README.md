@@ -8,7 +8,7 @@ Execute os passos abaixo para rodar o projeto
 git clone https://github.com/magrinilopes/cars-search
 ```
 
-### Acesse o diretório landing-page-vue que foi clonado
+### Acesse o diretório cars-seearch que foi clonado
 
 ### Tem duas formas de rodar este projeto, uma é instalando a aplicação.
 Para esse processo, é necessário ter o node e o npm instalados na máquina. Caso tenha, execute o comando:
@@ -22,7 +22,7 @@ npm run serve
 ```
 
 ### Caso queira subir em container
-Lembre-se que o [docker]() precisa estar instalado.
+Lembre-se que o [docker](https://docs.docker.com/get-docker/) precisa estar instalado.
 ```
 docker build -t tex/cars-search .
 ```

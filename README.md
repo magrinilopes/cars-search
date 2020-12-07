@@ -17,7 +17,7 @@ npm install
 ```
 Feito isto, acesse a url em seu navegador
 ```
-https://localhost:9000
+https://localhost:8080
 ```
 
 ### Compilar o projeto e executar localmente (ambiente de desenvolvimento)

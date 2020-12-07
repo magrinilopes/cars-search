@@ -15,6 +15,10 @@ Para esse processo, é necessário ter o node e o npm instalados na máquina. Ca
 ```
 npm install
 ```
+Feito isto, acesse a url em seu navegador
+```
+https://localhost:9000
+```
 
 ### Compilar o projeto e executar localmente (ambiente de desenvolvimento)
 ```
@@ -26,12 +30,17 @@ Lembre-se que o [docker](https://docs.docker.com/get-docker/) precisa estar inst
 
 Gere a imagem conforme comando abaixo:
 ```
-docker build -t tex/cars-search .
+docker build -t tex-cars-search .
 ```
 
 ### Com a imagem criada, execute o comando
-docker run -it -p 8080:80 --rm --name cars-search tex/cars-search
-
+```
+docker run -p 8080:80 --rm --name cars-search tex-cars-search
+```
+Feito isto, acesse a url em seu navegador
+```
+http://localhost:8080
+```
 
 ### Testes Unitários
 Para rodar os testes unitários do projeto, execute o comando:

@@ -28,4 +28,4 @@ docker build -t tex/cars-search .
 ```
 
 ### Com a imagem criada, execute o comando
-docker run -it -p 8080:8080 --rm --name cars-search tex/cars-search
+docker run -it -p 8080:80 --rm --name cars-search tex/cars-search

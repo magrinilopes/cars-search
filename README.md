@@ -23,6 +23,8 @@ npm run serve
 
 ### Caso queira subir em container
 Lembre-se que o [docker](https://docs.docker.com/get-docker/) precisa estar instalado.
+
+Gere a imagem conforme comando abaixo:
 ```
 docker build -t tex/cars-search .
 ```
